@@ -199,7 +199,7 @@ Type: `Number`<br /> Default: `500`
 
 ### region
 
-Si se ejecuta en Sauce Labs, puede ejecutar pruebas entre diferentes datacenters: EE. UU. o UE. Para cambiar tu región a la UE, añade `región: 'eu'` a tu configuración.
+If running on Sauce Labs, you can choose to run tests between different data centers: US or EU. Para cambiar tu región a la UE, añade `región: 'eu'` a tu configuración.
 
 __Nota:__ Esto solo tiene efecto si proporcionas `usuario` y `opciones de clave` que están conectadas a tu cuenta de Sauce Labs.
 
@@ -441,7 +441,7 @@ Parámetros:
 
 ### beforeSuite
 
-Gancho que se ejecuta antes de que la suite comience
+Hook that gets executed before the suite starts (in Mocha/Jasmine only)
 
 Parámetros:
 
@@ -507,12 +507,12 @@ Parámetros:
 - `result.result` (`Any`): devuelve el objeto de la función de prueba
 - `resultado.duración` (`Número`): duración de la prueba
 - `result.passed` (`Boolean`): verdadero si la prueba ha pasado, de lo contrario, falso
-- `result.retries` (`Objeto`): información de las especificaciones relacionadas con las recuperaciones, por ejemplo, `{ attempts: 0, limit: 0 }`
+- `result.retries` (`Object`): information about spec related retries, e.g. `{ attempts: 0, limit: 0 }`
 - `resultado` (`objeto`): resultado de gancho (contiene `error`, `resultado`, `duración`, `pasado`, `reintentos` propiedades)
 
 ### afterSuite
 
-Gancho que es ejecutado después de que la suite haya terminado
+Hook that gets executed after the suite has ended (in Mocha/Jasmine only)
 
 Parámetros:
 
