@@ -3,7 +3,7 @@ id: configuration
 title: پیکربندی
 ---
 
-بر اساس [تنظیم نوع](setuptypes) (مثلاً با استفاده از اتصال پروتکل خام، WebdriverIO به عنوان بسته مستقل و اجرا کننده تست WDIO) مجموعه متفاوتی از گزینه ها برای کنترل محیط وجود دارد.
+Based on the [setup type](/docs/setuptypes) (e.g. using the raw protocol bindings, WebdriverIO as standalone package or the WDIO testrunner) there is a different set of options available to control the environment.
 
 ## گزینه های WebDriver
 
