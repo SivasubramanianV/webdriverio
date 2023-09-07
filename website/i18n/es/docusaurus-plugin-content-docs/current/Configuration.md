@@ -3,7 +3,7 @@ id: configuration
 title: Configuración
 ---
 
-Basado en el tipo de configuración [](setuptypes) (p. ej. usando los enlaces de protocolo crudo, WebdriverIO como paquete independiente o el testrunner WDIo) hay un conjunto diferente de opciones disponibles para controlar el entorno.
+Based on the [setup type](/docs/setuptypes) (e.g. using the raw protocol bindings, WebdriverIO as standalone package or the WDIO testrunner) there is a different set of options available to control the environment.
 
 ## Opciones de WebDriver
 
